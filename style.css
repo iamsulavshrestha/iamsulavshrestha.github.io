@@ -24,3 +24,12 @@ h2{
 	padding: 0;
 	line-height: inherit;
 }
+
+.avatar{
+  max-width: 250px;
+  width: 100%;
+  height: auto;
+  border-radius: 100%;
+  overflow: hidden;
+  margin: 0 auto 20px auto;
+}
