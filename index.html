@@ -12,5 +12,37 @@
 			<h1> Sulav Shrestha </h1>
 			<h2> Web Developer </h2>
 		</div>
+  <!-- Insert these scripts at the bottom of the HTML, but before you use any Firebase services -->
+
+  <!-- Firebase App (the core Firebase SDK) is always required and must be listed first -->
+  <script src="https://www.gstatic.com/firebasejs/7.24.0/firebase-app.js"></script>
+
+  <!-- If you enabled Analytics in your project, add the Firebase SDK for Analytics -->
+  <script src="https://www.gstatic.com/firebasejs/7.24.0/firebase-analytics.js"></script>
+
+  <!-- Add Firebase products that you want to use -->
+  <script src="https://www.gstatic.com/firebasejs/7.24.0/firebase-auth.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/7.24.0/firebase-firestore.js"></script>
+  <!-- Previously loaded Firebase SDKs -->
+
+  <script>
+  var firebaseConfig = {
+    apiKey: "AIzaSyAcH5Jis8tZx_3tzSBbu2mhmEJx5afckCc",
+    authDomain: "sulav-shrestha-62ac3.firebaseapp.com",
+    databaseURL: "https://sulav-shrestha-62ac3.firebaseio.com",
+    projectId: "sulav-shrestha-62ac3",
+    storageBucket: "sulav-shrestha-62ac3.appspot.com",
+    messagingSenderId: "93754731902",
+    appId: "1:93754731902:web:36eee048f4b82b73f7d72f",
+    measurementId: "G-2YGV4EVX7G"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+  firebase.analytics();
+  var credential = error.credential;
+  // ...
+});
+    </script>
+
 	</body>
 </html>
