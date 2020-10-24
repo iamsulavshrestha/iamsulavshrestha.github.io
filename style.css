@@ -12,6 +12,10 @@ body{
 	transform: translateY(-50%);
 	margin: 0 auto;
 }
+.intro img{
+	display: block;
+	margin: auto;
+}
 h1{
 	font-size: 3rem;
 	margin: 0 auto;
